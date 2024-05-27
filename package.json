@@ -19,6 +19,6 @@
     "react-transition-group": "^4.4.5",
     "react-waves-effect": "^1.5.1",
     "universal-cookie": "^7.1.4",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.0.3"
   }
 }
