@@ -1,0 +1,187 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h2_t {
+    font-size: 1.6rem;
+    color: #625B71;
+    margin-bottom: 1.7rem;
+}
+.list_wrap {
+    padding-right: 0.5rem;
+    border: 0.1rem solid rgba(98, 91, 113, 0.5);
+    border-radius: 1.6rem;
+}
+.list {
+    overflow-y: auto;
+    width: 80rem;
+    height: 60vh;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.list::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0);
+    width: 0.3rem;
+}
+.list::-webkit-scrollbar-thumb {
+    background-color: rgba(98, 91, 113, 0.5);
+    border-radius: 0.3rem;
+}
+.new_doc_btn {
+    width: 20rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
+.ml {
+    margin-left: 2rem;
+}
+.item {
+    width: 100%;
+    display: flex;
+    padding: 1.8rem 2.4rem;
+    flex-direction: column;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.lst_item {
+    border: none;
+}
+.head_item {
+    font-size: 1.6rem;
+    color: black;
+    font-weight: bold;
+}
+.last_message {
+    font-size: 1.4rem;
+    color: #455A64;
+    margin-top: 1.3rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+.empty {
+    font-size: 1.2rem;
+}
+.btn_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1199px) {
+    .h2_t {
+        font-size: 1.5rem;
+        margin-bottom: 1.4rem;
+    }
+    .list {
+        width: 65rem;
+    }
+    .new_doc_btn {
+        width: 18rem;
+        height: 3.5rem;
+        margin-top: 1.5rem;
+    }
+    .item {
+        padding: 1.4rem 2rem;
+    }
+    .item:hover {
+        background-color: white;
+    }
+    .item:active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .head_item {
+        font-size: 1.4rem;
+    }
+    .last_message {
+        font-size: 1.2rem;
+        margin-top: 1.1rem;
+    }
+}
+@media (max-width: 991px) {
+    .h2_t {
+        font-size: 1.3rem;
+        margin-bottom: 1.1rem;
+    }
+    .list_wrap {
+        border-radius: 1.2rem;
+    }
+    .list {
+        width: 55rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+    .new_doc_btn {
+        width: 16rem;
+        height: 3.2rem;
+        margin-top: 1.3rem;
+    }
+    .item {
+        padding: 1.2rem 1.6rem;
+    }
+    .head_item {
+        font-size: 1.2rem;
+    }
+    .last_message {
+        font-size: 1rem;
+        margin-top: 0.9rem;
+    }
+    .btn_font {
+        font-size: 1.2rem !important;
+        border-radius: 0.6rem !important;
+    }
+}
+@media (max-width: 767px) {
+    .h2_t {
+        font-size: 1.2rem;
+        margin-bottom: 0.9rem;
+    }
+    .list_wrap {
+        border-radius: 1rem;
+    }
+    .list {
+        width: 45rem;
+    }
+    .new_doc_btn {
+        width: 14rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+    .item {
+        padding: 1rem 1.4rem
+    }
+    .head_item {
+        font-size: 1.1rem;
+    }
+    .last_message {
+        font-size: 0.9rem;
+    }
+    .btn_font {
+        font-size: 1.1rem !important;
+    }
+}
+@media (max-width: 575px) {
+    .list {
+        width: 32rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    .item {
+        padding: 0.7rem 1.1rem;
+    }
+    .head_item {
+        font-size: 1rem;
+    }
+    .last_message {
+        margin-top: 0.7rem;
+        font-size: 0.8rem;
+    }
+    .empty {
+        font-size: 1rem;
+    }
+}

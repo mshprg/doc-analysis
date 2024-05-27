@@ -1,0 +1,21 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.welcome {
+    font-size: 1.8rem;
+    color: #455A64;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.mb_input {
+    margin-bottom: 2rem;
+}
+.login_btn {
+    width: 10rem;
+    height: 4rem;
+    margin-top: 5.5rem;
+}

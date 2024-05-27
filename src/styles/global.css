@@ -1,0 +1,30 @@
+@keyframes out-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+html,
+body {
+    min-width: 320px;
+    font-size: 10px;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+}
+.height {
+    width: 100%;
+    min-height: 100vh;
+    animation: out-fade 200ms linear forwards;
+}
+button, svg, span, p, input, div {
+    transition: all 0.2s;
+}
+div {
+    animation: out-fade 200ms linear forwards;
+}
+p {
+    margin: 0;
+}

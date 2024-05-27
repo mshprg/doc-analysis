@@ -1,0 +1,22 @@
+@keyframes filters-pop {
+    0% {
+        background: rgba(0, 0, 0, 0);
+        opacity: 0;
+    }
+    100% {
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+    }
+}
+.popup-back-enter-active {
+    animation: filters-pop 0.4s forwards;
+}
+.popup-back-done {
+    opacity: 1;
+}
+.popup-back-exit-active {
+    animation: filters-pop 0.4s reverse;
+}
+.popup-back.exited {
+    opacity: 0;
+}
