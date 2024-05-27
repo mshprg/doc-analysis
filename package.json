@@ -9,16 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@swc/core": "^1.5.7",
     "axios": "^1.6.8",
     "classnames": "^2.5.1",
+    "dotenv": "^16.0.3",
     "framer-motion": "^11.1.9",
-    "next": "14.2.3",
+    "next": "^14.2.3",
     "nextjs-progressbar": "^0.0.16",
     "react": "^18",
     "react-dom": "^18",
     "react-transition-group": "^4.4.5",
     "react-waves-effect": "^1.5.1",
-    "universal-cookie": "^7.1.4",
-    "dotenv": "^16.0.3"
+    "universal-cookie": "^7.1.4"
   }
 }
