@@ -1,7 +1,6 @@
 import {useRouter} from "next/router";
 import Cookies from "universal-cookie";
-import {createChat, createDefaultChat, getAllChats, getAllDocuments} from "@/http/api/chatAPI";
-import Popup from "@/components/Popup";
+import {createDefaultChat, getAllChats} from "@/http/api/chatAPI";
 import HeightWrapper from "@/components/HeightWrapper";
 import styles from "@/styles/pages/documents.module.css";
 import global from "@/styles/global.module.css";
@@ -111,7 +110,7 @@ function Chats() {
                                                             {obj.chat.name}
                                                         </h3>
                                                         <p className={styles.last_message}>
-                                                            {obj.last_message.text}
+                                                            {obj.last_message.text ? obj.last_message.text : "У вас пока нет сообщений в этом чате"}
                                                         </p>
                                                     </div>
                                                 </div>
