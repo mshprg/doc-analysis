@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const $host = axios.create({
-    baseURL: process.env.API_URL
+    baseURL: 'http://213.171.7.15:5000'
 })
 
 export {
